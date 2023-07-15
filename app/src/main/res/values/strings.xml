@@ -16,7 +16,7 @@
     <string name="setting_screen_start">Start</string>
 
     <!-- Show IP screen -->
-    <string name="showip_screen_hint">Local IP addresses:</string>
+    <string name="showip_screen_hint">Your IP addresses:</string>
     <string name="showip_screen_empty_hint">Please connect to a Wi-Fi network</string>
 
     <!-- Prompts -->
