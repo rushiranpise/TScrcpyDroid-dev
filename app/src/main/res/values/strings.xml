@@ -2,8 +2,8 @@
     <string name="app_name">TScrcpyDroid</string>
 
     <!-- Main screen -->
-    <string name="main_screen_controller">Control Me</string>
-    <string name="main_screen_controlled">Being Controlled</string>
+    <string name="main_screen_controller">Control</string>
+    <string name="main_screen_controlled">ME</string>
 
     <!-- Control Settings screen -->
     <string name="setting_screen_ip_hint">IP address of the controlled device (xxx.xxx.xxx.xxx)</string>
