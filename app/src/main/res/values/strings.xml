@@ -1,31 +1,31 @@
 <resources>
     <string name="app_name">TScrcpyDroid</string>
 
-    <!--主界面-->
-    <string name="main_screen_controller">我要控制</string>
-    <string name="main_screen_controlled">我被控制</string>
+    <!-- Main screen -->
+    <string name="main_screen_controller">Control Me</string>
+    <string name="main_screen_controlled">Being Controlled</string>
 
-    <!--控制端设置界面-->
-    <string name="setting_screen_ip_hint">受控设备的IP地址(xxx.xxx.xxx.xxx)</string>
-    <string name="setting_screen_port_hint">端口号(取值5000~20000)</string>
-    <string name="setting_screen_timeout_hint">超时时间(单位:ms, 取值0~100000)</string>
-    <string name="setting_screen_resolution_hint">分辨率</string>
-    <string name="setting_screen_bitrate_hint">比特率BitRate</string>
-    <string name="setting_screen_no_control_hint">是否控制设备</string>
-    <string name="setting_screen_nav_bar_hint">是否需要导航栏</string>
-    <string name="setting_screen_start">开始</string>
+    <!-- Control Settings screen -->
+    <string name="setting_screen_ip_hint">IP address of the controlled device (xxx.xxx.xxx.xxx)</string>
+    <string name="setting_screen_port_hint">Port number (range: 5000~20000)</string>
+    <string name="setting_screen_timeout_hint">Timeout duration (unit: ms, range: 0~100000)</string>
+    <string name="setting_screen_resolution_hint">Resolution</string>
+    <string name="setting_screen_bitrate_hint">Bitrate</string>
+    <string name="setting_screen_no_control_hint">Control the device?</string>
+    <string name="setting_screen_nav_bar_hint">Display navigation bar?</string>
+    <string name="setting_screen_start">Start</string>
 
-    <!--显示IP界面-->
-    <string name="showip_screen_hint">本机ip如下</string>
-    <string name="showip_screen_empty_hint">请连接到WIFI网络</string>
+    <!-- Show IP screen -->
+    <string name="showip_screen_hint">Local IP addresses:</string>
+    <string name="showip_screen_empty_hint">Please connect to a Wi-Fi network</string>
 
-    <!--提示-->
-    <string name="local_ipaddress_error_hint">无法获取本地IP</string>
-    <string name="ipaddress_error_hint">请输入合法的ip地址</string>
-    <string name="port_error_hint">请输入合法的端口号</string>
-    <string name="timeout_error_hint">请输入合法的超时时间</string>
-    <string name="start_adb_error_hint">受控端adb服务启动异常</string>
-    <string name="start_adb_success_hint">成功启动受控端adb服务</string>
-    <string name="starting_adb_hint">正在建立连接</string>
+    <!-- Prompts -->
+    <string name="local_ipaddress_error_hint">Unable to retrieve local IP address</string>
+    <string name="ipaddress_error_hint">Please enter a valid IP address</string>
+    <string name="port_error_hint">Please enter a valid port number</string>
+    <string name="timeout_error_hint">Please enter a valid timeout duration</string>
+    <string name="start_adb_error_hint">Failed to start ADB service on the controlled device</string>
+    <string name="start_adb_success_hint">Successfully started ADB service on the controlled device</string>
+    <string name="starting_adb_hint">Establishing connection</string>
 
 </resources>
